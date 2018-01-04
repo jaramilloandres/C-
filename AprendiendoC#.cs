@@ -1,8 +1,8 @@
 ------------------------------
--	 // APRENDIENDO C# \\	 -
--	 Andres Jaramillo		 -
-- 	Estudiante Ingeneria	 -
--		 03/01/2018 		 -
+-  // APRENDIENDO C# \\	     -
+-    Andres Jaramillo	     -
+-    Estudiante Ingeneria    -
+-	03/01/2018  	     -
 ------------------------------
 
 Variables:	Es informacion que el programa puede leer mientras se esta ejecutando, sus nombres empiezan por letras y pueden contener _ y estos deben de ser descriptivos
