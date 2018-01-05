@@ -102,6 +102,38 @@ Operaciones Aritmeticas: Son las operaciones matematicas basicas como suma, rest
 				int x = 3;
 				int y = x++;
 				// x es 4, y es 3
+
+Condiciones: son utilizadas para declarar valores que deben cumplirse en la sentencia
+	
+		Tipos:	if: se utiliza en el bloque de un codigo para indicar si el resultado es verdadero
+				if (condition)
+				{
+					//Ejecute el codigo cuando la condicion sea verdaderao
 				
+				}
+				//la condicion puede devolver una expresion verdadera o falsa
+				static void Main(string[] args)
+				{
+					int x = 8;
+					int y = 3;
+					
+					if (x>y) 
+					{
+					Console.WriteLine("x es mayor que y");
+					}
+				}
+			Relationals Operators: sirven para evaluar las condiciones
+			
+				>= Mayor o igual
+				<= Menor o igual
+				== Igual que
+				!= No igual que
+				
+				if (z==x) 
+				{
+					Console.WriteLine("Igual");
+				}
+				// Podemos ver que el valor de z es igual al de x
+			
 				
 				
