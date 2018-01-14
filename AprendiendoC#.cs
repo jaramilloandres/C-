@@ -134,6 +134,48 @@ Condiciones: son utilizadas para declarar valores que deben cumplirse en la sent
 					Console.WriteLine("Igual");
 				}
 				// Podemos ver que el valor de z es igual al de x
+			else: se utiliza en un bloque del condigo cuando queremos indicar un caso contrario
 			
+				int mark= 90;
+				if (mark <50)
+				{ 
+					Console.WriteLine("fallaste");
+				}
+				else
+				{ 
+					Console.WriteLine("ganaste");
+				}
+			En C# tambien se pueden incluir la condicion if dentro de otro if, puedes incluir los if que desees
+			
+				int mark = 50;
+
+				if (mark >=25)
+				{ Console.WriteLine ("pasaste");
+				 if (mark ==50)
+				 {Console.WriteLine ("Perfecto");
+				 }
+				}
+				else 
+				{
+					Console.WriteLine ("fallaste");						
+				}
 				
-				
+			if-else if : Es utilizado para decidir entre 3 o mas acciones
+				int z = 66;
+
+				if (z==7)
+				{
+					Console.WriteLine("El valor de z es 7");						
+				}
+				else if (z==36)
+				{
+					Console.WriteLine("El valor de z es 36");
+				}
+				else if (z==66)
+				{
+					Console.WriteLine("El valor de z es 66");
+				}
+				else
+				{
+					Console.WriteLine("No cumple");
+				}
