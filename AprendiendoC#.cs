@@ -179,3 +179,138 @@ Condiciones: son utilizadas para declarar valores que deben cumplirse en la sent
 				{
 					Console.WriteLine("No cumple");
 				}
+			switch : proporciona una forma más elegante de probar una variable para la igualdad contra una lista de valores
+				
+				int num = 4;
+
+				switch(num) 
+				{
+					case 1: Console.WriteLine("one");
+					break;
+					case 2: Console.WriteLine("two");
+					break;
+					case 3: Console.WriteLine("three");
+					break;
+					case 4: Console.WriteLine("four");
+					break;	
+				}
+				
+			En la funcionalidad switch existe el caso predeterminado "opcional" se ejecuta cuando ninguno de los casos anteriores coincide
+				
+				int age = 90;
+
+				switch (age)
+				{
+					case 15: Console.WriteLine("Muy joven");
+					break;
+					case 40: Console.WriteLine("Adulto");
+					break;
+					case 60: Console.WriteLine("Anciano");
+					break;
+					default: Console.WriteLine("Ninguno es");
+					break;
+				}
+				
+			la funcionalidad break es utilizado para dar un espacio entre las lineas del bloque
+				
+			while: un ciclo while se ejecuta repetidamente en el bloque de un codigo siempre que una condición dada sea verdadera	
+				
+				int num = 10;
+
+				while(num<20)
+				{
+					Console.WriteLine(num);
+					num++;
+				}
+				
+				/*output
+				10
+				11
+				12
+				13
+				14
+				15
+				16
+				17
+				18
+				19
+				*/
+			Se puede utilizar while en operaciones aritmeticas compuestas para promover el control de timpos en un ciclo
+				
+				int num = 10;
+
+				while(num<20)
+				{
+					Console.WriteLine(num);
+					num+=4;
+				}
+				
+				/*
+				10
+				14
+				18
+				*/
+			Dependiendo de donde se ubique el simbolo + podemos mostrar los numeros que hay entre el rango 10-20 o desde el 10 hasta el 20 	
+				
+				int num = 10;
+
+				while(++num<15)
+				{
+					Console.WriteLine(num);
+				}
+
+				/* Output
+				11
+				12
+				13
+				14
+				*/
+				int num = 10;
+
+				while(num++<15)
+				{
+					Console.WriteLine(num);
+				}
+				/*Output
+				11
+				12
+				13
+				14
+				15
+				*/
+			foor: un bucle for ejecuta un conjunto de instrucciones un número específico de veces
+				
+				for ( int;condicion;incremental)
+				{
+					declaracione(s);
+				}
+				
+				for ( int x = 12; x < 16; x++)
+				{
+					Console.WriteLine("El valor de x es :{0}", x);
+				}
+
+				/*Output
+				El valor de x es :12
+				El valor de x es :13
+				El valor de x es :14
+				El valor de x es :15
+				*/
+
+				las instrucciones init e increment pueden omitirse, si no es necesario, pero recuerden que los puntos y comas son obligatorios
+				
+			do-while: el bucle do-while se garantiza que se ejecutará al menos una vez
+				
+				int a = 0;
+				do
+				{
+					Console.WriteLine(a);
+					a++;
+				}
+				while(a<3);
+				/*
+				0
+				1
+				3
+				*/
+			
